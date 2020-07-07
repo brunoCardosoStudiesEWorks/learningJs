@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="pt_br en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS na marra</title>
+
+    <!-- CSS's -->
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+
+    <div id="pageContent">
+        <!-- soon description -->
+
+        <header>
+
+            <h1>Aprendendo Javascript do início</h1>
+
+            <div class="introParagraph">
+                <p>
+                    Bom quero começar falando um pouco de mim, meu nome é Bruno, tenho 28 anos, sou formado em
+                    Gestão de TI, mas a faculdade me serviu mesmo para abrir a mente quanto á me tornar um programador,
+                    pois, os conteúdos acadêmicos passados, não tinham nada a ver com ´programação, a não ser lógica e
+                    algoritmos, o restante das matérias eram voltados a outras áreas da tecnologia (quem quer ser
+                    programador
+                    não faça GTI, rsrs),
+                    então, dois professores me abriram a mente e me fizeram descobrir que era isso que eu queria fazer o
+                    resto
+                    da vida, ser um programador!
+            </div>
+
+            <div class="boldPhraseHeader">
+                <p>
+                    Vamos logo direto ao assunto!
+                </p>
+            </div>
+
+            <div class="secondIntroParagraph">
+                <p>
+                    Agora tocando no assunto do propósito desta página, estou numa luta para aparender Javascript, estou
+                    tentando alguns métodos, ouvindo
+                    bastante conselhos de pessoas que já estão na area à mais tempo, e não tem jeito, nem todos aprendem
+                    da
+                    mesma forma e
+                    com a mesma velocidade, então fiz alguns cursos, projetos e estou novamente passando pela base até
+                    chegar no topo
+                    para fixar meu
+                    aprendizado, e passar um pouco para quem quer aprender também, lembrando que, esse conteúdo não é um
+                    curso
+                    é apenas um "diário de bordo", e ouvi de muitas pessoas que a melhor forma de aprender e fixar o
+                    conhecimento,
+                    é ensinando, então bora lá, só mais alguns avisos e algumas observações, abaixo haverá um sumário
+                    com
+                    separadores, indicando os conteúdos e com links para acessar diretamente, então eu vou desde como
+                    atribuir
+                    variáveis, até o mais complexo da linguagem.
+                </p>
+            </div>
+        </header>
+
+        <!-- summary -->
+
+        <nav class="summary">
+            <h2>Sumário</h2>
+            <ul>
+                <li>
+                    <a href="#organization">
+                        Organização
+                    </a>
+                </li>
+                <li>
+                    <a href="#comments">
+                        Comentários
+                    </a>
+                </li>
+                <li>
+                    <a href="#variables">
+                        Variáveis e Constantes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- code organization -->
+        <section id="organization">
+            <h2>Organização</h2>
+            <p>
+                - Começo esse tópico com uma pergunta: <em>como Javascript é organizado da forma mais simples
+                    possível?</em>
+                Bom pensando nesssa pergunta façamos um paralelo a lingua portuguesa. por exemplo: como um livro é
+                escrito em Português?
+
+            </p>
+
+            <div class="list">
+                <li>Em primeiro lugar temos a nossa sintaxe (forma de escrita)</li>
+                <li>As letras</li>
+                <li>Letras formam palavras</li>
+                <li>Palavras formam frases</li>
+                <li>Conjunto de frases formam um parágrafo</li>
+                <li>Alguns parágrafos formam uma sentença</li>
+                <li>Até chegar no conjunto final que é o livro (propriamente dito)</li>
+            </div>
+
+            <div class="jsOrganization">
+                <p>
+                    Já no <em>Javascript</em> temos uma situação bem parecida (como temos em todas as linguagens ou
+                    linguas), vou usar alguns <em>console.log()</em> pra explicar
+                </p>
+                <div class="list">
+                    <li>temos em Javascript as sentenças de código que não necessariamente
+                        precisamos termina-las com ";" <em>console.log("sentença de código").</em></li>
+                    <li>temos os blocos de código, onde o código é escrito dentre as chaves{ console.log("bloco de
+                        código") }.
+                    </li>
+                </div>
+
+                <p>É basicamente isso, sentenças e blocos, porém existe uma infinidade de blocos e sentenças para se
+                    aprender
+                </p>
+
+                <img src="/assets/organize.png" alt="Organização">
+            </div>
+        </section>
+
+        <section id="comments">
+            <h2>Comentários</h2>
+            <p>
+                - Toda linguagem de programação lhe permite comentar dentre as linhas de código ou nas próprias.
+                o Javascript não é diferente, aqui o conteúdo é bem simples igual a forma de efetuar comentários
+                em Javascript.
+            </p>
+
+            <div class="list">
+                <li>Temos comentários de apenas uma linha que são iniciados com // duas barras e a escrita vem logo a
+                    frente</li>
+                <li>Comentários de múltiplas linhas que começa com /* e fecha os comentários com */</li>
+                <li>E também podemos junto com os comentários de multiplas linhas incluir * no inicio de cada linha</li>
+            </div>
+
+            <img src="/assets/comments.png" alt="comentários">
+        </section>
+
+        <section id="variables">
+            <h2>Variáveis e Constantes</h2>
+
+            <div class="date">
+                <p>
+                    Pra sabermos o que são variáveis em programação precisamos saber primeiro o que são dados e o que
+                    são informações.
+                    <em>dado</em> é uma informação inútil ou seja que ainda não tem nenhuma atribuição ou valor. por
+                    exemplo: o nome Bruno,
+                    se tivesse uma palavra Bruno em meio há outras informações aquela palavra seria um dado apenas.
+                </p>
+            </div>
+            <div class="information">
+                <p>
+                    <em>informação</em> é o dado com atributo ou valor. por exemplo: Bruno é um homem de 28 anos. essa é
+                    a diferença entre dado e informação, a atribuição ou o valor que aquele dado tem em alguma
+                    semântica.
+                </p>
+            </div>
+
+            <div class="variablesLastP">
+                <p>
+                    A definição de <em>variável</em>na programação se dá à um dado alocado na memória com um valor ou
+                    atribuição (nome)
+                </p>
+            </div>
+
+            <div class="list">
+                <li>
+                    Variáveis declaradas com a palavra reservada <em>var</em> tem escopo global ou de função.
+                </li>
+                <li>
+                    Variáveis declaradas com a palavra reservada <em>let</em> tem escopo de bloco, instrução ou
+                    expressão.
+                </li>
+                <li>
+                    As variáveis declaradas com a palavra reservada <em>const</em> devem ser iniciadas na declaração e
+                    não sofrem alterações.
+                </li>
+            </div>
+
+            <img src="/assets/variables.png" alt="Variáveis e Constantes">
+        </section>
+
+        <section #typesInJs>
+            <p>
+                Aqui vou falar sobre os tipos importantes de dados existentes em Javascript
+            </p>
+
+            <div class="numbers">
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
